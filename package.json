@@ -1,0 +1,14 @@
+{
+  "name": "01-tareas-backend",
+  "version": "1.0.0",
+  "description": "Tarea 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Villagomez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
