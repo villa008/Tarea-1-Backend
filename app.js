@@ -19,7 +19,7 @@ app.get('/persona/:nombre/:apellido', (req, res) => {
 app.get('/dividir/:dividendo/:divisor', (req, res) => {
     let resultado= req.params.dividendo / req.params.divisor;
 
-  if (req.params.divisor==0) {
+  if (req.params.divisor==0 || req.params.dividendo==0) {
     res.json({error: "No se puede dividir por cero"})
   } else {
     res.json({resultado})
